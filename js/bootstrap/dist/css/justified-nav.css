@@ -1,0 +1,392 @@
+body {
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-left: 100px; 
+  margin-right: 100px;
+  background-image: url("img/logo3.png");
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#wowslider-container1 {
+zoom: 1;
+position: relative;
+max-width: 830px;
+margin: 8px 0 34px 150px;
+z-index: 90;
+border: none;
+text-align: left;
+}
+
+
+.wrapper {
+		
+		border: 2px solid #efefef;
+		background-image: url('img/logo1.jpg');
+		background-color: #ffffff;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+
+
+		}
+.deaf h2 {
+		text-align: center;
+		color: #0D1A27;
+		}
+
+.deaf h3 {text-align: center;
+		border: 1px solid;
+		border-color: #efefef;
+		color: #3399FF;
+		font: 16;
+		
+		
+		
+		}
+		
+
+.deaf ul li {padding: 5px;}
+.ache {
+		padding: 10px;
+		}
+.ache h1{
+font-family:Bookman Old Style;
+		text-align:center;
+		color: #356CA3;
+		
+
+
+}
+.ache h3 {font-family:Bookman Old Style;
+		text-align:center;
+		color: #356CA3;
+		}
+.ache p {text-indent: 15px;}
+.ache p {
+		font-size:17;
+		text-align:left;
+	
+		}
+.crawl h3 {
+	font-family:Bookman Old Style;
+	text-align: center;
+	
+	}
+.lima h3 {
+	text-align: center;
+	font-family:Bookman Old Style;
+	color: #356CA3;
+	
+	}
+.lima ul li {
+	padding: 10px;
+	font-size: 17;
+	}
+		
+
+.wow h3 {
+	font-size:30px;
+	font-family:TEMPUS SANS ITC;
+	text-align:center;
+	margin-left:50px;
+	padding: 4px;
+	color: #C8C8CA;
+	}
+.table table li {
+		font-size:18px;
+		font-family:Garamond;
+		margin-left:100px;
+		padding: 4px;
+		
+		
+		
+		}
+.table table td, th {
+		padding: 10px;
+		margin: 100px;
+		border: 1px solid white;
+
+		
+		}
+.table 
+
+.col-lg-4{
+	border:3px solid #b7aeae;
+	border-radius: 20px;
+	margin-left: 40px;
+	padding-left: 40px;
+}
+
+.col-lg-4 A:link { COLOR: black; TEXT-DECORATION: none; font-weight: normal; }
+.col-lg-4 A:visited { COLOR: black; TEXT-DECORATION: none; font-weight: normal; }
+.col-lg-4 A:active { COLOR: black; TEXT-DECORATION: none; }
+.col-lg-4 A:hover { COLOR: blue; TEXT-DECORATION: none; font-weight: none; }
+
+
+.footer {
+  border-top: 1px solid #eee;
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 40px;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+ 
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Customize the nav-justified links to be fill the entire space of the .navbar */
+
+.nav-justified {
+  background-color: #eee;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 30px;
+}
+.nav-justified > li > a {
+  margin-bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #777;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid #d5d5d5;
+  background-color: #e5e5e5; /* Old browsers */
+  background-repeat: repeat-x; /* Repeat the gradient */
+  background-image: -moz-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%); /* FF3.6+ */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f5f5), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+  background-image: -webkit-linear-gradient(top, #f5f5f5 0%,#e5e5e5 100%); /* Chrome 10+,Safari 5.1+ */
+  background-image: -o-linear-gradient(top, #f5f5f5 0%,#e5e5e5 100%); /* Opera 11.10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+  background-image: linear-gradient(top, #f5f5f5 0%,#e5e5e5 100%); /* W3C */
+}
+.nav-justified > .active > a,
+.nav-justified > .active > a:hover,
+.nav-justified > .active > a:focus {
+  background-color: #ddd;
+  background-image: none;
+  box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+.nav-justified > li:first-child > a {
+  border-radius: 5px 5px 0 0;
+}
+.nav-justified > li:last-child > a {
+  border-bottom: 0;
+  border-radius: 0 0 5px 5px;
+}
+
+@media (min-width: 768px) {
+  .nav-justified {
+    max-height: 52px;
+  }
+  .nav-justified > li > a {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #d5d5d5;
+  }
+  .nav-justified > li:first-child > a {
+    border-left: 0;
+    border-radius: 5px 0 0 5px;
+  }
+  .nav-justified > li:last-child > a {
+    border-radius: 0 5px 5px 0;
+    border-right: 0;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.crawl {
+	
+	text-align: center;
+	}
+.crawl h3 {
+	color: #356CA3;
+
+}
+.icon-chevron-right {
+  background-position: -456px -72px;
+}
+
+.nav-list > .active > a > [class^="icon-"]
+
+.row {
+  margin-left: -20px;
+  *zoom: 1;
+  
+}
+
+.row:before,
+.row:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.row:after {
+  clear: both;
+}
+
+[class*="span"] {
+  float: left;
+  min-height: 1px;
+  margin-left: 20px;  
+}
+.bs-docs-sidenav {
+width: 258px;
+}
+.bs-docs-sidenav {
+width: 228px;
+margin: 30px 0 0;
+padding: 0;
+background-color: #F4F4FF;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+-webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+-moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+box-shadow: 0 1px 4px rgba(0,0,0,.065);
+}
+.bs-docs-sidenav > li:first-child > a {
+-webkit-border-radius: 6px 6px 0 0;
+-moz-border-radius: 6px 6px 0 0;
+border-radius: 6px 6px 0 0;
+}
+.bs-docs-sidenav a {
+color: #29A329;
+text-decoration: none;
+}
+
+.row li {
+line-height: 20px;
+}
+.row-fluid .span3 {
+  width: 23.404255319148934%;
+  *width: 23.351063829787233%;
+}
+
+.pool table
+{
+border-collapse:collapse;
+}
+
+.pool table 
+{
+width:100%;
+}
+.pool th
+{
+height:50px;
+width: 100%;
+}
+.pool td
+{
+text-align:left;
+}
+.pool td
+{
+height:50px;
+vertical-align:bottom;
+}
+.pool td
+{
+padding:15px;
+}
+.pool table, td, th
+{
+border:1px solid green;
+}
+.pool th
+{
+background-color:green;
+color:white;
+padding: 15px;
+}
+.pool h3 {
+border: 1px solid green;
+background-color: green;
+color: white;
+text-align: center;
+}
+/* Chevrons */
+.bs-docs-sidenav .icon-chevron-right {
+  float: right;
+  margin-top: 2px;
+  margin-right: -6px;
+  opacity: .25;
+}
+.bs-docs-sidenav > li > a:hover {
+  background-color: #D1FFFF;
+}
+.bs-docs-sidenav a:hover .icon-chevron-right {
+  opacity: .5;
+}
+.bs-docs-sidenav .active .icon-chevron-right,
+.bs-docs-sidenav .active a:hover .icon-chevron-right {
+  background-image: url(../img/glyphicons-halflings-white.png);
+  opacity: 1;
+}
+.bs-docs-sidenav.affix {
+  top: 40px;
+}
+.bs-docs-sidenav.affix-bottom {
+  position: absolute;
+  top: auto;
+  bottom: 270px;
+}
+.page-header {
+text-align: center;
+color: #66CCFF;
+
+}
+.bs-docs-sidenav.affix {
+position: fixed;
+top: 80px;
+}
+.affix {
+position: fixed;
+}
+.lists ul {
+
+ line-height: 0;
+ 
+
+ 
+}
+.lists a {
+
+background-color: #99FF99;
+color: black;
+border: 1px solid green;
+}
+.lists p {
+display:inline;
+margin: 5px;
+padding: 5px;
+}
+.lol {
+color: #5D89B5;
+}
+.lol a {
+	color: #3399FF
+	}
+
+
+
